@@ -38,7 +38,6 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
-   
   </head>
 
   <body>
@@ -57,8 +56,8 @@
         <nav id="navbar" class="navbar">
           <ul>
             <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About</a></li>
             <li><a href="#flowers">Strains</a></li>
+            <li><a href="#gallery">Gallery</a></li>
             <!-- <li><a href="#events">Events</a></li> -->
             <li><a href="#chefs">Team</a></li>
             <!-- <li><a href="#menu">Menu</a></li> -->
@@ -122,7 +121,26 @@
               best, most sustainable practices, including organic growth
               methods.
             </p>
-            <a data-aos="fade-up" data-aos-delay="300" style="display: grid; place-content: center;" aria-label="Chat on WhatsApp" target="_blank" href="https://wa.me/27844086532?text=Send%20me%20a%20pricelist"><img src="https://scontent.whatsapp.net/v/t39.8562-34/420077459_703742575180618_3955965302853713788_n.png?ccb=1-7&_nc_sid=73b08c&_nc_ohc=wtGLS9wW4xUQ7kNvgH3Wl9l&_nc_ht=scontent.whatsapp.net&oh=01_Q5AaIJtwARJZIZhocb6FJIyVpBbB1SYgBNRtcM12EEJjO7Wc&oe=666E64A8" alt="Chat On Whatsapp" srcset=""></a>
+            <a
+              data-aos="fade-up"
+              data-aos-delay="300"
+              style="
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 10px;
+              "
+              aria-label="Chat on WhatsApp"
+              target="_blank"
+              href="https://wa.me/27844086532?text=Send%20me%20a%20pricelist"
+              ><img
+                src="./assets/img/whatsapp.png"
+                alt="Chat On Whatsapp"
+                srcset=""
+                style="max-width: 50px"
+              />
+              Contact Us</a
+            >
 
             <!-- <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
               <a href="#book-a-table" class="btn-book-a-table">Book a Table</a>
@@ -149,96 +167,8 @@
     <!-- End Hero Section -->
 
     <main id="main">
-      <!-- ======= About Section ======= -->
-      <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
-          <div class="section-header">
-            <h2>About Us</h2>
-            <p>Learn More <span>About Us</span></p>
-          </div>
-
-          <div class="row gy-4">
-            <div
-              class="col-lg-6 position-relative about-img"
-              style="
-                background-image: url(assets/img/About_Main.jpeg);
-                background-position: center center;
-                background-size: cover;
-              "
-              data-aos="fade-up"
-              data-aos-delay="150"
-            >
-              <!-- <div class="call-us position-absolute">
-                <h4>Book a Table</h4>
-                <p>+1 5589 55488 55</p>
-              </div> -->
-            </div>
-            <div
-              class="col-lg-6 d-flex"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div class="content ps-0 ps-lg-5">
-                <p class="fst-italic">
-                  We specialize in growing some of the most popular THC and CBD
-                  strains including:
-                </p>
-                <ul>
-                  <li><i class="bi bi-check2-all"></i> Girl Scout Cookies</li>
-                  <li><i class="bi bi-check2-all"></i> Polar Vortex</li>
-                  <li><i class="bi bi-check2-all"></i> Mandarin Cookies</li>
-                  <li><i class="bi bi-check2-all"></i> Charlotte's Angel</li>
-                  <li><i class="bi bi-check2-all"></i> Harlequin</li>
-                </ul>
-                <p>
-                  We are committed to providing our enthusiasts with the best
-                  possible experience and guarantee that you will love our
-                  product. We are also proud to be a 0 waste company, doing our
-                  part to protect the environment.
-                </p>
-                <p>
-                  Our goal is to provide our enthusiasts with the best quality
-                  cannabis products, which is why we also offer a wide range of
-                  premium infused edibles and infused base ingredients for
-                  cooking such as butter, honey, and homemade dough. We use only
-                  the highest quality ingredients, so you can trust that our
-                  products are safe and delicious.
-                </p>
-                <p>
-                  We understand that not everyone can come visit us, That's why
-                  we offer fast and discreet delivery of our products via
-                  courier.
-                </p>
-                <p>
-                  At 420CapeTownCBD, we pride ourselves on our commitment to
-                  quality, sustainability, and enthusiast satisfaction. Thank
-                  you for choosing 420CapeTownCBD as your preferred cannabis
-                  supplier, we look forward to serving you.
-                </p>
-                <!-- <div class="position-relative mt-4">
-                  <img src="assets/img/about-2.jpg" class="img-fluid" alt="" />
-                  <a
-                    href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                    class="glightbox play-btn"
-                  ></a>
-                </div> -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End About Section -->
-
-      <!-- ======= Flower Strains Section ======= -->
-      <section
-        id="flowers"
-        class="menu"
-        style="
-          background-image: url(./assets//img/brown-texture.jpg);
-          background-size: cover;
-          transition: all 0.3s linear;
-        "
-      >
+      <!-- ======= Flower Strainfs Section ======= -->
+      <section id="flowers" class="about">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
             <h2>Our Strains</h2>
@@ -270,7 +200,7 @@
               </a>
             </li>
             <!-- End tab nav item -->
-
+            <!-- 
             <li class="nav-item">
               <a
                 class="nav-link"
@@ -278,8 +208,9 @@
                 data-bs-target="#strains-indica"
               >
                 <h4>Indica</h4> </a
-              ><!-- End tab nav item -->
-            </li>
+              >
+            </li> -->
+            <!-- End tab nav item -->
 
             <li class="nav-item">
               <a
@@ -292,7 +223,7 @@
             </li>
             <!-- End tab nav item -->
 
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a
                 class="nav-link"
                 data-bs-toggle="tab"
@@ -300,11 +231,15 @@
               >
                 <h4>CBD</h4>
               </a>
-            </li>
+            </li> -->
             <!-- End tab nav item -->
           </ul>
 
-          <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
+          <div style="
+          background-image: url(./assets//img/brown-texture.jpg);
+          background-size: cover;
+          transition: all 0.3s linear;
+        " class="tab-content p-3" data-aos="fade-up" data-aos-delay="300">
             <div class="tab-pane fade active show" id="strains-all">
               <div class="tab-header text-center">
                 <p>Strains</p>
@@ -312,114 +247,485 @@
               </div>
 
               <div class="row gy-5">
+                <!-- ColItem Start => Bob Saget -->
                 <div class="col-lg-4 menu-item">
-                  <a
-                    href="assets/img/flowers/Sativa/Moby Dick.png"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/flowers/Sativa/Moby Dick.png"
+                  <button
+                    onclick="this.nextElementSibling.showModal()"
+                    style="background: none; outline: none; border: none"
+                  >
+                    <img
+                      src="assets/img/flowers/Sativa/Bob Saget.png"
                       class="menu-img img-fluid"
                       alt=""
-                  /></a>
-                  <h4>Moby Dick</h4>
-                  <p class="ingredients">
-                    Euphoria, Spacey, Happy, Psychedelic
-                  </p>
-                  <!-- <p class="price">$5.95</p> -->
+                    />
+                    <h4>Bob Saget</h4>
+                  </button>
+                  <dialog
+                    onclick="(event.clientX < this.getBoundingClientRect().left || event.clientX > this.getBoundingClientRect().right || event.clientY < this.getBoundingClientRect().top || event.clientY > this.getBoundingClientRect().bottom) && this.close()"
+                  >
+                    <button
+                      style="
+                        position: absolute;
+                        right: 10px;
+                        top: 10px;
+                        z-index: 10;
+                        border: none;
+                        background: none;
+                      "
+                      onclick="this.parentNode.close()"
+                    >
+                      Close
+                    </button>
+                    <div
+                      class="d-flex flex-column flex-md-row align-items-center"
+                    >
+                      <img
+                        src="assets/img/flowers/Sativa/Bob Saget.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                      <div>
+                        <h4>Bob Saget</h4>
+                        <p class="ingredients">Talkative, Creative, Happy</p>
+                        <hr />
+                        <p>
+                          Bob Saget, also known as "The Bob," is a stimulating
+                          sativa marijuana strain that won 2nd place at the 2016
+                          Colorado Cannabis Cup. This addled comedian gets the
+                          heart pumping, stimulating the consumer to the point
+                          of agitation. But fear not, the energy subsides and
+                          settles into an uplifted, cerebral haze that is lucid,
+                          yet spacey. As this strong sativa fades, expect a
+                          stoney crash that represents Saget’s latent Pre-98
+                          Bubba Kush and Afghani genetics.
+                        </p>
+                        <a
+                          data-aos="fade-up"
+                          data-aos-delay="300"
+                          style="
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            margin-top: 30px;
+                          "
+                          aria-label="Chat on WhatsApp"
+                          target="_blank"
+                          href="https://wa.me/27844086532?text=Bob%20Saget%20please"
+                          ><img
+                            src="./assets/img/whatsapp.png"
+                            alt="Chat On Whatsapp"
+                            srcset=""
+                            style="max-width: 50px"
+                          />
+                          Contact Us</a
+                        >
+                      </div>
+                    </div>
+                  </dialog>
                 </div>
-                <!-- Menu Item -->
-
+                <!-- ColItem End -->
+                <!-- ColItem Start => Glookies -->
                 <div class="col-lg-4 menu-item">
-                  <a
-                    href="assets/img/flowers/Sativa/Swazi Gold.png"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/flowers/Sativa/Swazi Gold.png"
-                      class="menu-img img-fluid"
-                      alt="Swazi Gold"
-                  /></a>
-                  <h4>Swazi Gold</h4>
-                  <p class="ingredients">
-                    Hungry, Relaxed, Creative, Focused, Giggly
-                  </p>
-                  <!-- <p class="price">$14.95</p> -->
-                </div>
-                <!-- Menu Item -->
-                <div class="col-lg-4 menu-item">
-                  <a
-                    href="assets/img/flowers/indica/Northern Lights.png"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/flowers/indica/Northern Lights.png"
-                      class="menu-img img-fluid"
-                      alt=""
-                  /></a>
-                  <h4>Northern Lights</h4>
-                  <p class="ingredients">Relaxation, Euphoric, Hunger</p>
-                  <!-- <p class="price">$5.95</p> -->
-                </div>
-                <!-- Menu Item -->
-
-                <div class="col-lg-4 menu-item">
-                  <a
-                    href="assets/img/flowers/hybrid/Polar Vortex.png"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/flowers/hybrid/Polar Vortex.png"
-                      class="menu-img img-fluid"
-                      alt="Polar Vortex"
-                  /></a>
-                  <h4>Polar Vortex</h4>
-                  <p class="ingredients">Energetic, Creative, Focused</p>
-                  <!-- <p class="price">$5.95</p> -->
-                </div>
-                <!-- Menu Item -->
-
-                <div class="col-lg-4 menu-item">
-                  <a
-                    href="assets/img/flowers/hybrid/Cornbread.png"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/flowers/hybrid/Cornbread.png"
-                      class="menu-img img-fluid"
-                      alt="Cornbread"
-                  /></a>
-                  <h4>Cornbread</h4>
-                  <p class="ingredients">
-                    Relaxing, Euphoric, Happy, Sleepy, Hungry
-                  </p>
-                  <!-- <p class="price">$14.95</p> -->
-                </div>
-                <!-- Menu Item -->
-                <div class="col-lg-4 menu-item">
-                  <a
-                    href="assets/img/flowers/CBD/Charlottes Angel.png"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/flowers/CBD/Charlottes Angel.png"
-                      class="menu-img img-fluid"
-                      alt=""
-                  /></a>
-                  <h4>Charlotte's Angel</h4>
-                  <p class="ingredients">Calming, Anxiety</p>
-                  <!-- <p class="price">$5.95</p> -->
-                </div>
-                <!-- Menu Item -->
-
-                <div class="col-lg-4 menu-item">
-                  <a
-                    href="assets/img/flowers/CBD/Harlequin.png"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/flowers/CBD/Harlequin.png"
+                  <button
+                    onclick="this.nextElementSibling.showModal()"
+                    style="background: none; outline: none; border: none"
+                  >
+                    <img
+                      src="assets/img/flowers/hybrid/Glookies.png"
                       class="menu-img img-fluid"
                       alt=""
-                  /></a>
-                  <h4>Harlequin</h4>
-                  <p class="ingredients">Pain, Inflammation, Nausea</p>
-                  <!-- <p class="price">$14.95</p> -->
+                    />
+                    <h4>Glookies</h4>
+                  </button>
+                  <dialog
+                    onclick="(event.clientX < this.getBoundingClientRect().left || event.clientX > this.getBoundingClientRect().right || event.clientY < this.getBoundingClientRect().top || event.clientY > this.getBoundingClientRect().bottom) && this.close()"
+                  >
+                    <button
+                      style="
+                        position: absolute;
+                        right: 10px;
+                        top: 10px;
+                        z-index: 10;
+                        border: none;
+                        background: none;
+                      "
+                      onclick="this.parentNode.close()"
+                    >
+                      Close
+                    </button>
+                    <div
+                      class="d-flex flex-column flex-md-row align-items-center"
+                    >
+                      <img
+                        src="assets/img/flowers/hybrid/Glookies.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                      <div>
+                        <h4>Glookies</h4>
+                        <p class="ingredients">Hungry, Relaxed, Sleepy</p>
+                        <hr />
+                        <p>
+                          Glookies is a hybrid weed strain made by crossing Thin
+                          Mint with GG4. The effects of Glookies are believed to
+                          be calming and uplifting. Reviewers on Leafly say
+                          Glookies makes them feel giggly, relaxed, and hungry.
+                          Glookies has 20% THC and 1% CBG. The dominant terpene
+                          in Glookies is caryophyllene, with sweet, earthy aroma
+                          and nutty, spicy, and diesel-like flavor profile.
+                          Medical marijuana patients say they often buy this
+                          strain during episodes of anxiety and lack of
+                          appetite. The original breeder of Glookies is Barney’s
+                          Farm.
+                        </p>
+                        <a
+                          data-aos="fade-up"
+                          data-aos-delay="300"
+                          style="
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            margin-top: 30px;
+                          "
+                          aria-label="Chat on WhatsApp"
+                          target="_blank"
+                          href="https://wa.me/27844086532?text=Glookies%20please"
+                          ><img
+                            src="./assets/img/whatsapp.png"
+                            alt="Chat On Whatsapp"
+                            srcset=""
+                            style="max-width: 50px"
+                          />
+                          Contact Us</a
+                        >
+                      </div>
+                    </div>
+                  </dialog>
                 </div>
-                <!-- Menu Item -->
+                <!-- ColItem End -->
+                <!-- ColItem Start => King Kong -->
+                <div class="col-lg-4 menu-item">
+                  <button
+                    onclick="this.nextElementSibling.showModal()"
+                    style="background: none; outline: none; border: none"
+                  >
+                    <img
+                      src="assets/img/flowers/hybrid/King Kong.png"
+                      class="menu-img img-fluid"
+                      alt=""
+                    />
+                    <h4>King Kong</h4>
+                  </button>
+                  <dialog
+                    onclick="(event.clientX < this.getBoundingClientRect().left || event.clientX > this.getBoundingClientRect().right || event.clientY < this.getBoundingClientRect().top || event.clientY > this.getBoundingClientRect().bottom) && this.close()"
+                  >
+                    <button
+                      style="
+                        position: absolute;
+                        right: 10px;
+                        top: 10px;
+                        z-index: 10;
+                        border: none;
+                        background: none;
+                      "
+                      onclick="this.parentNode.close()"
+                    >
+                      Close
+                    </button>
+                    <div
+                      class="d-flex flex-column flex-md-row align-items-center"
+                    >
+                      <img
+                        src="assets/img/flowers/hybrid/King Kong.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                      <div>
+                        <h4>King Kong</h4>
+                        <p class="ingredients">Hungry, Relaxed, Sleepy</p>
+                        <hr />
+                        <p>
+                          King Kong, also known as "King Kong OG" and "King Kong
+                          Kush," is a hybrid marijuana strain. Mothered by Ed
+                          Rosenthal Super Bud, King Kong is indica-leaning and
+                          provides head-to-toe effects as strong as the giant
+                          ape himself. These dense conic buds come frosted in
+                          crystals and ribboned in hairs despite its short
+                          flowering time of only 7 to 8 weeks. King Kong is
+                          known to have a pungent sour, skunky smell with
+                          long-lasting effects that target pain, nausea,
+                          anxiety, and the appetite. King Kong may offer
+                          uplifting and focused effects to be enjoyed any time
+                          of the day.
+                        </p>
+                        <a
+                          data-aos="fade-up"
+                          data-aos-delay="300"
+                          style="
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            margin-top: 30px;
+                          "
+                          aria-label="Chat on WhatsApp"
+                          target="_blank"
+                          href="https://wa.me/27844086532?text=King%20Kong%20please"
+                          ><img
+                            src="./assets/img/whatsapp.png"
+                            alt="Chat On Whatsapp"
+                            srcset=""
+                            style="max-width: 50px"
+                          />
+                          Contact Us</a
+                        >
+                      </div>
+                    </div>
+                  </dialog>
+                </div>
+                <!-- ColItem End -->
+                <!-- ColItem Start => Wedding Cake -->
+                <div class="col-lg-4 menu-item">
+                  <button
+                    onclick="this.nextElementSibling.showModal()"
+                    style="background: none; outline: none; border: none"
+                  >
+                    <img
+                      src="assets/img/flowers/hybrid/Wedding Cake.png"
+                      class="menu-img img-fluid"
+                      alt=""
+                    />
+                    <h4>Wedding Cake</h4>
+                  </button>
+                  <dialog
+                    onclick="(event.clientX < this.getBoundingClientRect().left || event.clientX > this.getBoundingClientRect().right || event.clientY < this.getBoundingClientRect().top || event.clientY > this.getBoundingClientRect().bottom) && this.close()"
+                  >
+                    <button
+                      style="
+                        position: absolute;
+                        right: 10px;
+                        top: 10px;
+                        z-index: 10;
+                        border: none;
+                        background: none;
+                      "
+                      onclick="this.parentNode.close()"
+                    >
+                      Close
+                    </button>
+                    <div
+                      class="d-flex flex-column flex-md-row align-items-center"
+                    >
+                      <img
+                        src="assets/img/flowers/hybrid/Wedding Cake.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                      <div>
+                        <h4>Wedding Cake</h4>
+                        <p class="ingredients">Relaxed, Aroused, Hungry</p>
+                        <hr />
+                        <p>
+                          Wedding Cake, also known as "Triangle Mints #23," is a
+                          potent type of indica-hybrid marijuana strain made by
+                          crossing Triangle Kush with Animal Mints. Fun fact: In
+                          Canada, this strain is known as Pink Cookies. The
+                          Wedding Cake strain provides relaxing and euphoric
+                          effects that calm the body and mind. This strain
+                          yields a rich and tangy flavor profile with undertones
+                          of earthy pepper. Medical marijuana patients choose
+                          Wedding Cake to help relieve symptoms associated with
+                          pain, insomnia and appetite loss. Consumers with a low
+                          THC tolerance should enjoy this strain with an extra
+                          slice of care due to its high THC content. Wedding
+                          Cake has soared in popularity over the years and was
+                          named Leafly Strain of the Year in 2019.
+                        </p>
+                        <a
+                          data-aos="fade-up"
+                          data-aos-delay="300"
+                          style="
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            margin-top: 30px;
+                          "
+                          aria-label="Chat on WhatsApp"
+                          target="_blank"
+                          href="https://wa.me/27844086532?text=Wedding%20Cake%20please"
+                          ><img
+                            src="./assets/img/whatsapp.png"
+                            alt="Chat On Whatsapp"
+                            srcset=""
+                            style="max-width: 50px"
+                          />
+                          Contact Us</a
+                        >
+                      </div>
+                    </div>
+                  </dialog>
+                </div>
+                <!-- ColItem End -->
+                <!-- ColItem Start => Exodus Cheese -->
+                <div class="col-lg-4 menu-item">
+                  <button
+                    onclick="this.nextElementSibling.showModal()"
+                    style="background: none; outline: none; border: none"
+                  >
+                    <img
+                      src="assets/img/flowers/hybrid/Exodus Cheese.png"
+                      class="menu-img img-fluid"
+                      alt=""
+                    />
+                    <h4>Exodus Cheese</h4>
+                  </button>
+                  <dialog
+                    onclick="(event.clientX < this.getBoundingClientRect().left || event.clientX > this.getBoundingClientRect().right || event.clientY < this.getBoundingClientRect().top || event.clientY > this.getBoundingClientRect().bottom) && this.close()"
+                  >
+                    <button
+                      style="
+                        position: absolute;
+                        right: 10px;
+                        top: 10px;
+                        z-index: 10;
+                        border: none;
+                        background: none;
+                      "
+                      onclick="this.parentNode.close()"
+                    >
+                      Close
+                    </button>
+                    <div
+                      class="d-flex flex-column flex-md-row align-items-center"
+                    >
+                      <img
+                        src="assets/img/flowers/hybrid/Exodus Cheese.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                      <div>
+                        <h4>Exodus Cheese</h4>
+                        <p class="ingredients">Talkative, Euphoric, Hungry</p>
+                        <hr />
+                        <p>
+                          Generally known as simply “Cheese” or “UK Cheese,”
+                          Exodus Cheese is the original clone-only strain that
+                          originated in Southern England sometime during the
+                          late 1980s or early 90s. Said to be grown from a
+                          packet of Sensi Seeds Skunk #1, it is known for its
+                          high yields, potency and distinct, overwhelmingly
+                          strong cheese-like odor. Though the identity of the
+                          original grower is still debated, at some point in the
+                          early 90s the cannabis lifestyle activists based in
+                          Luton calling themselves Exodus acquired some clones
+                          of Cheese and from there it rapidly became one of the
+                          most popular and sought after varieties in the UK.
+                          Since then many breeders have created seed lines using
+                          Cheese, while the original clone is still found in
+                          grow rooms around the globe.
+                        </p>
+                        <a
+                          data-aos="fade-up"
+                          data-aos-delay="300"
+                          style="
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            margin-top: 30px;
+                          "
+                          aria-label="Chat on WhatsApp"
+                          target="_blank"
+                          href="https://wa.me/27844086532?text=Exodus%20Cheese%20please"
+                          ><img
+                            src="./assets/img/whatsapp.png"
+                            alt="Chat On Whatsapp"
+                            srcset=""
+                            style="max-width: 50px"
+                          />
+                          Contact Us</a
+                        >
+                      </div>
+                    </div>
+                  </dialog>
+                </div>
+                <!-- ColItem End -->
+                <!-- ColItem Start => Real OG -->
+                <div class="col-lg-4 menu-item">
+                  <button
+                    onclick="this.nextElementSibling.showModal()"
+                    style="background: none; outline: none; border: none"
+                  >
+                    <img
+                      src="assets/img/flowers/hybrid/Real OG.png"
+                      class="menu-img img-fluid"
+                      alt=""
+                    />
+                    <h4>Real OG</h4>
+                  </button>
+                  <dialog
+                    onclick="(event.clientX < this.getBoundingClientRect().left || event.clientX > this.getBoundingClientRect().right || event.clientY < this.getBoundingClientRect().top || event.clientY > this.getBoundingClientRect().bottom) && this.close()"
+                  >
+                    <button
+                      style="
+                        position: absolute;
+                        right: 10px;
+                        top: 10px;
+                        z-index: 10;
+                        border: none;
+                        background: none;
+                      "
+                      onclick="this.parentNode.close()"
+                    >
+                      Close
+                    </button>
+                    <div
+                      class="d-flex flex-column flex-md-row align-items-center"
+                    >
+                      <img
+                        src="assets/img/flowers/hybrid/Real OG.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                      <div>
+                        <h4>Real OG</h4>
+                        <p class="ingredients">Talkative, Giggly, Sleepy</p>
+                        <hr />
+                        <p>
+                          Real OG is a hybrid marijuana strain. We're still
+                          learning about the flavors and effects of Real OG - if
+                          you've smoked, dabbed, or consumed this strain before,
+                          tell us about your experience by leaving a review.
+                        </p>
+                        <a
+                          data-aos="fade-up"
+                          data-aos-delay="300"
+                          style="
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            margin-top: 30px;
+                          "
+                          aria-label="Chat on WhatsApp"
+                          target="_blank"
+                          href="https://wa.me/27844086532?text=Real%20OG%20please"
+                          ><img
+                            src="./assets/img/whatsapp.png"
+                            alt="Chat On Whatsapp"
+                            srcset=""
+                            style="max-width: 50px"
+                          />
+                          Contact Us</a
+                        >
+                      </div>
+                    </div>
+                  </dialog>
+                </div>
+                <!-- ColItem End -->
               </div>
             </div>
             <!-- End All Strain Content -->
@@ -431,44 +737,91 @@
               </div>
 
               <div class="row gy-5 justify-content-center">
+                <!-- ColItem Start -->
                 <div class="col-lg-4 menu-item">
-                  <a
-                    href="assets/img/flowers/Sativa/Moby Dick.png"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/flowers/Sativa/Moby Dick.png"
+                  <button
+                    onclick="this.nextElementSibling.showModal()"
+                    style="background: none; outline: none; border: none"
+                  >
+                    <img
+                      src="assets/img/flowers/Sativa/Bob Saget.png"
                       class="menu-img img-fluid"
                       alt=""
-                  /></a>
-                  <h4>Moby Dick</h4>
-                  <p class="ingredients">
-                    Euphoria, Spacey, Happy, Psychedelic
-                  </p>
-                  <!-- <p class="price">$5.95</p> -->
+                    />
+                    <h4>Bob Saget</h4>
+                  </button>
+                  <dialog
+                    onclick="(event.clientX < this.getBoundingClientRect().left || event.clientX > this.getBoundingClientRect().right || event.clientY < this.getBoundingClientRect().top || event.clientY > this.getBoundingClientRect().bottom) && this.close()"
+                  >
+                    <button
+                      style="
+                        position: absolute;
+                        right: 10px;
+                        top: 10px;
+                        z-index: 10;
+                        border: none;
+                        background: none;
+                      "
+                      onclick="this.parentNode.close()"
+                    >
+                      Close
+                    </button>
+                    <div
+                      class="d-flex flex-column flex-md-row align-items-center"
+                    >
+                      <img
+                        src="assets/img/flowers/Sativa/Bob Saget.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                      <div>
+                        <h4>Bob Saget</h4>
+                        <p class="ingredients">
+                          Euphoria, Spacey, Happy, Psychedelic
+                        </p>
+                        <hr />
+                        <p>
+                          Bob Saget, also known as "The Bob," is a stimulating
+                          sativa marijuana strain that won 2nd place at the 2016
+                          Colorado Cannabis Cup. This addled comedian gets the
+                          heart pumping, stimulating the consumer to the point
+                          of agitation. But fear not, the energy subsides and
+                          settles into an uplifted, cerebral haze that is lucid,
+                          yet spacey. As this strong sativa fades, expect a
+                          stoney crash that represents Saget’s latent Pre-98
+                          Bubba Kush and Afghani genetics.
+                        </p>
+                        <a
+                          data-aos="fade-up"
+                          data-aos-delay="300"
+                          style="
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            margin-top: 30px;
+                          "
+                          aria-label="Chat on WhatsApp"
+                          target="_blank"
+                          href="https://wa.me/27844086532?text=Bob%20Saget%20please"
+                          ><img
+                            src="./assets/img/whatsapp.png"
+                            alt="Chat On Whatsapp"
+                            srcset=""
+                            style="max-width: 50px"
+                          />
+                          Contact Us</a
+                        >
+                      </div>
+                    </div>
+                  </dialog>
                 </div>
-                <!-- Menu Item -->
-
-                <div class="col-lg-4 menu-item">
-                  <a
-                    href="assets/img/flowers/Sativa/Swazi Gold.png"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/flowers/Sativa/Swazi Gold.png"
-                      class="menu-img img-fluid"
-                      alt="Swazi Gold"
-                  /></a>
-                  <h4>Swazi Gold</h4>
-                  <p class="ingredients">
-                    Hungry, Relaxed, Creative, Focused, Giggly
-                  </p>
-                  <!-- <p class="price">$14.95</p> -->
-                </div>
-                <!-- Menu Item -->
+                <!-- ColItem End -->
               </div>
             </div>
             <!-- End Sativa Strain Content -->
 
-            <div class="tab-pane fade" id="strains-indica">
+            <!-- <div class="tab-pane fade" id="strains-indica">
               <div class="tab-header text-center">
                 <p>Strains</p>
                 <h3>Indica</h3>
@@ -486,11 +839,9 @@
                   /></a>
                   <h4>Northern Lights</h4>
                   <p class="ingredients">Relaxation, Euphoric, Hunger</p>
-                  <!-- <p class="price">$5.95</p> -->
                 </div>
-                <!-- Menu Item -->
               </div>
-            </div>
+            </div> -->
             <!-- End Indica Strain Content -->
 
             <div class="tab-pane fade" id="strains-hybrid">
@@ -500,42 +851,414 @@
               </div>
 
               <div class="row gy-5">
-                <div class="col-lg-4 menu-item">
-                  <a
-                    href="assets/img/flowers/hybrid/Polar Vortex.png"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/flowers/hybrid/Polar Vortex.png"
-                      class="menu-img img-fluid"
-                      alt="Polar Vortex"
-                  /></a>
-                  <h4>Polar Vortex</h4>
-                  <p class="ingredients">Energetic, Creative, Focused</p>
-                  <!-- <p class="price">$5.95</p> -->
-                </div>
-                <!-- Menu Item -->
+                <!-- ColItem Start => Glookies -->
 
                 <div class="col-lg-4 menu-item">
-                  <a
-                    href="assets/img/flowers/hybrid/Cornbread.png"
-                    class="glightbox"
-                    ><img
-                      src="assets/img/flowers/hybrid/Cornbread.png"
+                  <button
+                    onclick="this.nextElementSibling.showModal()"
+                    style="background: none; outline: none; border: none"
+                  >
+                    <img
+                      src="assets/img/flowers/hybrid/Glookies.png"
                       class="menu-img img-fluid"
-                      alt="Cornbread"
-                  /></a>
-                  <h4>Cornbread</h4>
-                  <p class="ingredients">
-                    Relaxing, Euphoric, Happy, Sleepy, Hungry
-                  </p>
-                  <!-- <p class="price">$14.95</p> -->
+                      alt=""
+                    />
+                    <h4>Glookies</h4>
+                  </button>
+                  <dialog
+                    onclick="(event.clientX < this.getBoundingClientRect().left || event.clientX > this.getBoundingClientRect().right || event.clientY < this.getBoundingClientRect().top || event.clientY > this.getBoundingClientRect().bottom) && this.close()"
+                  >
+                    <button
+                      style="
+                        position: absolute;
+                        right: 10px;
+                        top: 10px;
+                        z-index: 10;
+                        border: none;
+                        background: none;
+                      "
+                      onclick="this.parentNode.close()"
+                    >
+                      Close
+                    </button>
+                    <div
+                      class="d-flex flex-column flex-md-row align-items-center"
+                    >
+                      <img
+                        src="assets/img/flowers/hybrid/Glookies.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                      <div>
+                        <h4>Glookies</h4>
+                        <p class="ingredients">Hungry, Relaxed, Sleepy</p>
+                        <hr />
+                        <p>
+                          Glookies is a hybrid weed strain made by crossing Thin
+                          Mint with GG4. The effects of Glookies are believed to
+                          be calming and uplifting. Reviewers on Leafly say
+                          Glookies makes them feel giggly, relaxed, and hungry.
+                          Glookies has 20% THC and 1% CBG. The dominant terpene
+                          in Glookies is caryophyllene, with sweet, earthy aroma
+                          and nutty, spicy, and diesel-like flavor profile.
+                          Medical marijuana patients say they often buy this
+                          strain during episodes of anxiety and lack of
+                          appetite. The original breeder of Glookies is Barney’s
+                          Farm.
+                        </p>
+                        <a
+                          data-aos="fade-up"
+                          data-aos-delay="300"
+                          style="
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            margin-top: 30px;
+                          "
+                          aria-label="Chat on WhatsApp"
+                          target="_blank"
+                          href="https://wa.me/27844086532?text=Glookies%20please"
+                          ><img
+                            src="./assets/img/whatsapp.png"
+                            alt="Chat On Whatsapp"
+                            srcset=""
+                            style="max-width: 50px"
+                          />
+                          Contact Us</a
+                        >
+                      </div>
+                    </div>
+                  </dialog>
                 </div>
-                <!-- Menu Item -->
+
+                <!-- ColItem End -->
+                <!-- ColItem Start => King Kong -->
+                <div class="col-lg-4 menu-item">
+                  <button
+                    onclick="this.nextElementSibling.showModal()"
+                    style="background: none; outline: none; border: none"
+                  >
+                    <img
+                      src="assets/img/flowers/hybrid/King Kong.png"
+                      class="menu-img img-fluid"
+                      alt=""
+                    />
+                    <h4>King Kong</h4>
+                  </button>
+                  <dialog
+                    onclick="(event.clientX < this.getBoundingClientRect().left || event.clientX > this.getBoundingClientRect().right || event.clientY < this.getBoundingClientRect().top || event.clientY > this.getBoundingClientRect().bottom) && this.close()"
+                  >
+                    <button
+                      style="
+                        position: absolute;
+                        right: 10px;
+                        top: 10px;
+                        z-index: 10;
+                        border: none;
+                        background: none;
+                      "
+                      onclick="this.parentNode.close()"
+                    >
+                      Close
+                    </button>
+                    <div
+                      class="d-flex flex-column flex-md-row align-items-center"
+                    >
+                      <img
+                        src="assets/img/flowers/hybrid/King Kong.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                      <div>
+                        <h4>King Kong</h4>
+                        <p class="ingredients">Hungry, Relaxed, Sleepy</p>
+                        <hr />
+                        <p>
+                          King Kong, also known as "King Kong OG" and "King Kong
+                          Kush," is a hybrid marijuana strain. Mothered by Ed
+                          Rosenthal Super Bud, King Kong is indica-leaning and
+                          provides head-to-toe effects as strong as the giant
+                          ape himself. These dense conic buds come frosted in
+                          crystals and ribboned in hairs despite its short
+                          flowering time of only 7 to 8 weeks. King Kong is
+                          known to have a pungent sour, skunky smell with
+                          long-lasting effects that target pain, nausea,
+                          anxiety, and the appetite. King Kong may offer
+                          uplifting and focused effects to be enjoyed any time
+                          of the day.
+                        </p>
+                        <a
+                          data-aos="fade-up"
+                          data-aos-delay="300"
+                          style="
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            margin-top: 30px;
+                          "
+                          aria-label="Chat on WhatsApp"
+                          target="_blank"
+                          href="https://wa.me/27844086532?text=King%20Kong%20please"
+                          ><img
+                            src="./assets/img/whatsapp.png"
+                            alt="Chat On Whatsapp"
+                            srcset=""
+                            style="max-width: 50px"
+                          />
+                          Contact Us</a
+                        >
+                      </div>
+                    </div>
+                  </dialog>
+                </div>
+                <!-- ColItem End -->
+                <!-- ColItem Start => Wedding Cake -->
+                <div class="col-lg-4 menu-item">
+                  <button
+                    onclick="this.nextElementSibling.showModal()"
+                    style="background: none; outline: none; border: none"
+                  >
+                    <img
+                      src="assets/img/flowers/hybrid/Wedding Cake.png"
+                      class="menu-img img-fluid"
+                      alt=""
+                    />
+                    <h4>Wedding Cake</h4>
+                  </button>
+                  <dialog
+                    onclick="(event.clientX < this.getBoundingClientRect().left || event.clientX > this.getBoundingClientRect().right || event.clientY < this.getBoundingClientRect().top || event.clientY > this.getBoundingClientRect().bottom) && this.close()"
+                  >
+                    <button
+                      style="
+                        position: absolute;
+                        right: 10px;
+                        top: 10px;
+                        z-index: 10;
+                        border: none;
+                        background: none;
+                      "
+                      onclick="this.parentNode.close()"
+                    >
+                      Close
+                    </button>
+                    <div
+                      class="d-flex flex-column flex-md-row align-items-center"
+                    >
+                      <img
+                        src="assets/img/flowers/hybrid/Wedding Cake.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                      <div>
+                        <h4>Wedding Cake</h4>
+                        <p class="ingredients">Relaxed, Aroused, Hungry</p>
+                        <hr />
+                        <p>
+                          Wedding Cake, also known as "Triangle Mints #23," is a
+                          potent type of indica-hybrid marijuana strain made by
+                          crossing Triangle Kush with Animal Mints. Fun fact: In
+                          Canada, this strain is known as Pink Cookies. The
+                          Wedding Cake strain provides relaxing and euphoric
+                          effects that calm the body and mind. This strain
+                          yields a rich and tangy flavor profile with undertones
+                          of earthy pepper. Medical marijuana patients choose
+                          Wedding Cake to help relieve symptoms associated with
+                          pain, insomnia and appetite loss. Consumers with a low
+                          THC tolerance should enjoy this strain with an extra
+                          slice of care due to its high THC content. Wedding
+                          Cake has soared in popularity over the years and was
+                          named Leafly Strain of the Year in 2019.
+                        </p>
+                        <a
+                          data-aos="fade-up"
+                          data-aos-delay="300"
+                          style="
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            margin-top: 30px;
+                          "
+                          aria-label="Chat on WhatsApp"
+                          target="_blank"
+                          href="https://wa.me/27844086532?text=Wedding%20Cake%20please"
+                          ><img
+                            src="./assets/img/whatsapp.png"
+                            alt="Chat On Whatsapp"
+                            srcset=""
+                            style="max-width: 50px"
+                          />
+                          Contact Us</a
+                        >
+                      </div>
+                    </div>
+                  </dialog>
+                </div>
+                <!-- ColItem End -->
+                <!-- ColItem Start => Exodus Cheese -->
+                <div class="col-lg-4 menu-item">
+                  <button
+                    onclick="this.nextElementSibling.showModal()"
+                    style="background: none; outline: none; border: none"
+                  >
+                    <img
+                      src="assets/img/flowers/hybrid/Exodus Cheese.png"
+                      class="menu-img img-fluid"
+                      alt=""
+                    />
+                    <h4>Exodus Cheese</h4>
+                  </button>
+                  <dialog
+                    onclick="(event.clientX < this.getBoundingClientRect().left || event.clientX > this.getBoundingClientRect().right || event.clientY < this.getBoundingClientRect().top || event.clientY > this.getBoundingClientRect().bottom) && this.close()"
+                  >
+                    <button
+                      style="
+                        position: absolute;
+                        right: 10px;
+                        top: 10px;
+                        z-index: 10;
+                        border: none;
+                        background: none;
+                      "
+                      onclick="this.parentNode.close()"
+                    >
+                      Close
+                    </button>
+                    <div
+                      class="d-flex flex-column flex-md-row align-items-center"
+                    >
+                      <img
+                        src="assets/img/flowers/hybrid/Exodus Cheese.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                      <div>
+                        <h4>Exodus Cheese</h4>
+                        <p class="ingredients">Talkative, Euphoric, Hungry</p>
+                        <hr />
+                        <p>
+                          Generally known as simply “Cheese” or “UK Cheese,”
+                          Exodus Cheese is the original clone-only strain that
+                          originated in Southern England sometime during the
+                          late 1980s or early 90s. Said to be grown from a
+                          packet of Sensi Seeds Skunk #1, it is known for its
+                          high yields, potency and distinct, overwhelmingly
+                          strong cheese-like odor. Though the identity of the
+                          original grower is still debated, at some point in the
+                          early 90s the cannabis lifestyle activists based in
+                          Luton calling themselves Exodus acquired some clones
+                          of Cheese and from there it rapidly became one of the
+                          most popular and sought after varieties in the UK.
+                          Since then many breeders have created seed lines using
+                          Cheese, while the original clone is still found in
+                          grow rooms around the globe.
+                        </p>
+                        <a
+                          data-aos="fade-up"
+                          data-aos-delay="300"
+                          style="
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            margin-top: 30px;
+                          "
+                          aria-label="Chat on WhatsApp"
+                          target="_blank"
+                          href="https://wa.me/27844086532?text=Exodus%20Cheese%20please"
+                          ><img
+                            src="./assets/img/whatsapp.png"
+                            alt="Chat On Whatsapp"
+                            srcset=""
+                            style="max-width: 50px"
+                          />
+                          Contact Us</a
+                        >
+                      </div>
+                    </div>
+                  </dialog>
+                </div>
+                <!-- ColItem End -->
+                <!-- ColItem Start => Real OG -->
+                <div class="col-lg-4 menu-item">
+                  <button
+                    onclick="this.nextElementSibling.showModal()"
+                    style="background: none; outline: none; border: none"
+                  >
+                    <img
+                      src="assets/img/flowers/hybrid/Real OG.png"
+                      class="menu-img img-fluid"
+                      alt=""
+                    />
+                    <h4>Real OG</h4>
+                  </button>
+                  <dialog
+                    onclick="(event.clientX < this.getBoundingClientRect().left || event.clientX > this.getBoundingClientRect().right || event.clientY < this.getBoundingClientRect().top || event.clientY > this.getBoundingClientRect().bottom) && this.close()"
+                  >
+                    <button
+                      style="
+                        position: absolute;
+                        right: 10px;
+                        top: 10px;
+                        z-index: 10;
+                        border: none;
+                        background: none;
+                      "
+                      onclick="this.parentNode.close()"
+                    >
+                      Close
+                    </button>
+                    <div
+                      class="d-flex flex-column flex-md-row align-items-center"
+                    >
+                      <img
+                        src="assets/img/flowers/hybrid/Real OG.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                      <div>
+                        <h4>Real OG</h4>
+                        <p class="ingredients">Talkative, Giggly, Sleepy</p>
+                        <hr />
+                        <p>
+                          Real OG is a hybrid marijuana strain. We're still
+                          learning about the flavors and effects of Real OG - if
+                          you've smoked, dabbed, or consumed this strain before,
+                          tell us about your experience by leaving a review.
+                        </p>
+                        <a
+                          data-aos="fade-up"
+                          data-aos-delay="300"
+                          style="
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            margin-top: 30px;
+                          "
+                          aria-label="Chat on WhatsApp"
+                          target="_blank"
+                          href="https://wa.me/27844086532?text=Real%20OG%20please"
+                          ><img
+                            src="./assets/img/whatsapp.png"
+                            alt="Chat On Whatsapp"
+                            srcset=""
+                            style="max-width: 50px"
+                          />
+                          Contact Us</a
+                        >
+                      </div>
+                    </div>
+                  </dialog>
+                </div>
+                <!-- ColItem End -->
               </div>
             </div>
             <!-- End Hybrid Strain Content -->
 
-            <div class="tab-pane fade" id="strains-cbd">
+            <!-- <div class="tab-pane fade" id="strains-cbd">
               <div class="tab-header text-center">
                 <p>Strains</p>
                 <h3>CBD</h3>
@@ -553,9 +1276,7 @@
                   /></a>
                   <h4>Charlotte's Angel</h4>
                   <p class="ingredients">Calming, Anxiety</p>
-                  <!-- <p class="price">$5.95</p> -->
                 </div>
-                <!-- Menu Item -->
 
                 <div class="col-lg-4 menu-item">
                   <a
@@ -568,14 +1289,456 @@
                   /></a>
                   <h4>Harlequin</h4>
                   <p class="ingredients">Pain, Inflammation, Nausea</p>
-                  <!-- <p class="price">$14.95</p> -->
                 </div>
-                <!-- Menu Item -->
               </div>
-            </div>
+            </div> -->
             <!-- End CBD Strain Content -->
           </div>
         </div>
+      </section>
+      <!-- End About Section -->
+
+      <!-- ======= Flower Gallery Section ======= -->
+      <section
+        id="gallery"
+        class="menu"
+        style="
+          background-image: url(./assets//img/brown-texture.jpg);
+          background-size: cover;
+          transition: all 0.3s linear;
+        "
+      >
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Gallery</h2>
+          <p><span>Behind the Scenes</span></p>
+        </div>
+        <div
+          style="
+            margin-inline: auto;
+            overflow-x: hidden;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/1.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/1.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/2.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/2.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/3.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/3.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/4.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/4.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/5.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/5.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/6.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/6.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/7.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/7.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/8.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/8.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/9.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/9.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/10.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/10.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/11.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/11.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/12.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/12.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/13.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/13.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/14.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/14.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/15.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/15.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/16.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/16.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/17.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/17.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/18.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/18.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/19.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/19.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/20.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/20.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/21.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/21.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/22.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/22.jpg"
+              alt=""
+          /></a>
+          <a
+            style="
+              display: flex;
+              flex-direction: column;
+              overflow: hidden;
+              margin: 8px;
+              min-width: 200px;
+              max-width: 400px;
+              flex-grow: 1;
+              height: 100%;
+            "
+            href="./assets/img/flowers/gallery/23.jpg"
+            class="glightbox"
+            ><img
+              style="width: 100%; height: 100%; object-fit: cover; max-height: 400px"
+              src="./assets/img/flowers/gallery/23.jpg"
+              alt=""
+          /></a>
+        </div>
+      </div>
       </section>
       <!-- End Strains Section -->
 
@@ -589,7 +1752,7 @@
 
           <div class="row gy-4">
             <div
-              class="col-lg-6 col-md-6 d-flex align-items-stretch"
+              class="col-lg-4 col-md-6 d-flex align-items-stretch"
               data-aos="fade-up"
               data-aos-delay="100"
             >
@@ -623,7 +1786,7 @@
             <!-- End Chefs Member -->
 
             <div
-              class="col-lg-6 col-md-6 d-flex align-items-stretch"
+              class="col-lg-4 col-md-6 d-flex align-items-stretch"
               data-aos="fade-up"
               data-aos-delay="200"
             >
@@ -646,9 +1809,39 @@
                   <h4>Jason Wandrag</h4>
                   <span>Web Developer</span>
                   <p>
-                    Although I have no talent for growing, 420 CAPETOWN CBD has given me the
-                    opportunity to be able to contribute my skills to an
-                    industry I wholeheartedly support
+                    Although I have no talent for growing, 420 CAPETOWN CBD has
+                    given me the opportunity to be able to contribute my skills
+                    to an industry I wholeheartedly support
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Chefs Member -->
+            <div
+              class="col-lg-4 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="chef-member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/chefs/The Russian.jpg"
+                    class="img-fluid"
+                    alt="The Russioan"
+                    style="max-height: 400px; object-fit: cover; width: 100%"
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>The Russian</h4>
+                  <span>Grower</span>
+                  <p>
+                    Some Content Here
                   </p>
                 </div>
               </div>
@@ -688,9 +1881,11 @@
             <!-- End Chefs Member -->
           </div>
         </div>
+        
       </section>
       <!-- End Chefs Section -->
 
+      <!-- End Contact Section -->
       <!-- ======= Contact Section ======= -->
       <section
         id="contact"
@@ -758,10 +1953,28 @@
               <div class="section-header mt-3">
                 <!-- <h2>Contact</h2> -->
                 <p><span>~ OR ~</span></p>
-              </div>            <a style="display: grid; place-content: center;" aria-label="Chat on WhatsApp" target="_blank" href="https://wa.me/27844086532?text=Send%20me%20a%20pricelist"><img src="https://scontent.whatsapp.net/v/t39.8562-34/420077459_703742575180618_3955965302853713788_n.png?ccb=1-7&_nc_sid=73b08c&_nc_ohc=wtGLS9wW4xUQ7kNvgH3Wl9l&_nc_ht=scontent.whatsapp.net&oh=01_Q5AaIJtwARJZIZhocb6FJIyVpBbB1SYgBNRtcM12EEJjO7Wc&oe=666E64A8" alt="Chat On Whatsapp" srcset=""></a>
+              </div>
+              <a
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 10px;
+                "
+                aria-label="Chat on WhatsApp"
+                target="_blank"
+                href="https://wa.me/27844086532?text=Send%20me%20a%20pricelist"
+                ><img
+                  src="./assets/img/whatsapp.png"
+                  style="max-width: 50px"
+                  alt="Chat On Whatsapp"
+                  srcset=""
+                />
+                Whatsapp Us</a
+              >
             </div>
           </form>
-<!-- 
+          <!-- 
           <div class="mb-3">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6624.051248494338!2d18.6495589!3d-33.8889939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1676211660154!5m2!1sen!2sza"
@@ -783,11 +1996,8 @@
                 </div>
               </div>
             </div> -->
-            <!-- End Info Item -->
+          <!-- End Info Item -->
 
-            
-
-          
           <!--End Contact Form -->
         </div>
       </section>
@@ -814,8 +2024,16 @@
             <div>
               <h4>Contact</h4>
               <p>
-                <strong>Phone:</strong> <a href="https://wa.me/27844086532?text=Send%20me%20a%20pricelist" target="_blank">+27 84 408 6532</a><br />
-                <strong>Email:</strong> <a href="mailto:420CapeTownCBD@gmail.com" target="_blank">420CapeTownCBD@gmail.com</a><br />
+                <strong>Phone:</strong>
+                <a
+                  href="https://wa.me/27844086532?text=Send%20me%20a%20pricelist"
+                  target="_blank"
+                  >+27 84 408 6532</a
+                ><br />
+                <strong>Email:</strong>
+                <a href="mailto:420CapeTownCBD@gmail.com" target="_blank"
+                  >420CapeTownCBD@gmail.com</a
+                ><br />
               </p>
             </div>
           </div>
@@ -836,7 +2054,12 @@
             <div class="social-links d-flex">
               <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
               <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="https://www.instagram.com/420cptcbd/" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+              <a
+                href="https://www.instagram.com/420cptcbd/"
+                class="instagram"
+                target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
               <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
@@ -853,7 +2076,10 @@
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/ -->
-          Developed by <a href="https://jason-wandrag.netlify.app/" target="_blank">Digital Pander</a>
+          Developed by
+          <a href="https://jason-wandrag.netlify.app/" target="_blank"
+            >Digital Pander</a
+          >
         </div>
       </div>
     </footer>
